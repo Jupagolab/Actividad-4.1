@@ -1,0 +1,39 @@
+.Darkmode{
+    transform: all 0.5s ease-in-out;
+    background-color: #222;
+    color: #fff
+}
+
+.Darkmode .contenedor {
+    box-shadow: 0 0 10px rgba(238, 238, 238, 0.1);
+}
+
+.Darkmode button {
+    transition: all 0.5s ease-in-out;
+    background-color: #232323;
+    color: #fff;
+    border-color: white;
+}
+
+.Darkmode a {
+    transition: all 0.5s ease-in-out;
+    color: rgb(118, 173, 255);
+}
+
+.Darkmode input[type="button"], .Darkmode select, .Darkmode #Fuentes, .Darkmode input[type="image"] {
+    transition: all 0.5s ease-in-out;
+    background-color: #232323;
+    color: #fff;
+    border-color: white;
+}
+
+.Darkmode input[type="text"] {
+    transition: all 0.5s ease-in-out;
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.Darkmode #msg {
+    color: rgb(255, 104, 104);
+}
