@@ -1,5 +1,105 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  transition: all 0.5s ease-in-out;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #333;
+  display: flexbox;
+}
+
+header {
+  display: flex;
+  padding-bottom: 40px;
+  border-bottom: solid 1px #333;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modoOscuro {
+  margin: auto;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="button"],
+#Fuentes {
+  transition: all 0.5s ease-in-out;
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 2%;
+}
+
+a {
+  transition: all 0.5s ease-in-out;
+}
+
+select {
+  transition: all 0.5s ease-in-out;
+  color: #222;
+  background-color: #fff;
+}
+
+button {
+  transition: all 0.5s ease-in-out;
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 310px) {
+  header {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .App {
+    font-size: 75%;
+    padding: 20px 30px;
+  }
+
+  header {
+    padding-bottom: 0;
+  }
+
+  input[type="text"] {
+    width: 97%;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="button"],
+  #Fuentes {
+    padding: 5px;
+  }
+
+  #boton {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .App {
+    font-size: 100%;
+  }
 }
