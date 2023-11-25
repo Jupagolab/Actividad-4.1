@@ -3,8 +3,8 @@
 ## Descripción 
 Esta aplicación consume la api de un diccionario en inglés, donde se puede obtener definiciones, sinónimos, fonéticas (tanto texto como pronunciación) de múltiples palabras en inglés.  
  
-## Capturas de Pantalla 
-(Adjunta aquí algunas capturas de pantalla de tu aplicación, si es posible) 
+## Video Explicativo del codigo
+https://youtu.be/j6yFxB9PtEI?si=s0hfi1dMUFj5GmZ2
  
 ## Funcionalidades Principales 
 - Sirve para conocer las definiciones, sinonimos, fonéticas de palabras en inglés. 
