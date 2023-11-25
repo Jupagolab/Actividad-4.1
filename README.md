@@ -12,8 +12,8 @@ https://youtu.be/j6yFxB9PtEI?si=s0hfi1dMUFj5GmZ2
  
 ## Tecnologías Utilizadas 
 - React 
-- HTML/CSS 
-- Otras bibliotecas/frameworks que hayas utilizado 
+- HTML
+- CSS 
  
 ## Instalación 
 1. Clona este repositorio: git clone https://github.com/tu-usuario/tu-repositorio.git 
@@ -25,9 +25,6 @@ https://youtu.be/j6yFxB9PtEI?si=s0hfi1dMUFj5GmZ2
 2. Abre tu navegador y ve a http://localhost:3000 
  
 ### Modo Oscuro 
-La aplicación tiene un modo oscuro que se ajusta automáticamente según la configuración de tu sistema operativo. Si deseas activarlo o desactivarlo manualmente, puedes hacerlo desde la interfaz de usuario. 
- 
-## Configuración del Modo Oscuro 
 La aplicación tiene un modo oscuro que se ajusta automáticamente según la configuración de tu sistema operativo. Si deseas activarlo o desactivarlo manualmente, puedes hacerlo desde la interfaz de usuario. 
  
 ## Contribución 
